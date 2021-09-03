@@ -7,6 +7,7 @@ import Section from "../components/Section/section";
 import Section2 from "../components/Section2/section";
 import { Social } from "../components/Social/social";
 import { Media } from "../components/media";
+import Head from "next/head";
 export default function App(props) {
   let scroll = useRef();
   // useEffect(() => {
@@ -14,6 +15,9 @@ export default function App(props) {
   // }, []);
   return (
     <ScrollView ref={scroll} style={{ height: "100vh" }}>
+      <Head>
+        <title>خانم مینا میرسعید - مدرس زبان انگلیسی</title>
+      </Head>
       <View
         style={{
           backgroundColor: "#EEE7E7",
