@@ -24,7 +24,7 @@ export default function Section(props) {
             </View>
           </View>
 
-          <Button largeMobile />
+          <Button title="رزرو کلاس" largeMobile />
         </View>
       </Media>
       <Media greaterThan="sm">
