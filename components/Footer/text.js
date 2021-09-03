@@ -11,10 +11,10 @@ export default function Texts(props) {
           </Text>
           <Text
             accessibilityRole="link"
-            herf="tel:۰۹۱۲۴۵۶۷۸۹"
+            herf="tel:+98 938 801 5238"
             style={[styles.p, { fontSize: 12, paddingTop: 10 }]}
           >
-            شماره تماس: ۰۹۱۲۴۵۶۷۸۹
+            شماره تماس: +98 938 801 5238
           </Text>
         </View>
       </Media>

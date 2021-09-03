@@ -16,7 +16,7 @@ export const Button = ({ title, largeMobile }) => {
               height: 30,
               marginBottom: 20,
               marginTop: 20,
-              marginRight: largMobile ? 50 : 0,
+              marginRight: largeMobile ? 50 : 0,
               color: "#000",
             },
             hovered && { backgroundColor: "#b91372", color: "#fff" },

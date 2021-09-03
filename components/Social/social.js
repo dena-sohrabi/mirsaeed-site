@@ -38,7 +38,7 @@ export function Social(props) {
               marginLeft={0}
             />
             <Box
-              source="/Group 66.png"
+              source="/Group 63.png"
               title1="کتاب های آموزشی رایگان!"
               title2="برای دریافت کتاب های آموزشی رایگان از کانال تلگرام دیدن کنید"
             />
