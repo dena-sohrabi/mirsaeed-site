@@ -1,7 +1,7 @@
 import { StyleSheet, View, Pressable } from "react-native";
 import { Media } from "./media";
 import { useHover } from "./useHover";
-export const Button = ({ title }) => {
+export const Button = ({ title, largeMobile }) => {
   let [hovered, hoverListeners] = useHover();
   return (
     <>
@@ -12,7 +12,7 @@ export const Button = ({ title }) => {
           style={[
             styles.docme,
             {
-              width: 80,
+              width: largeMobile ? 200 : 80,
               height: 30,
               marginBottom: 20,
               marginTop: 20,
