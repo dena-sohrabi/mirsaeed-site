@@ -3,7 +3,7 @@ import { StyleSheet, View, ScrollView } from "react-native";
 import Footer from "../components/Footer/footer";
 import Header from "../components/header/header";
 import { Meno } from "../components/header/meno";
-import Section from "../components/section/section";
+import Section from "../components/Section/section";
 import Section2 from "../components/Section2/section";
 import { Social } from "../components/Social/social";
 import { Media } from "../components/media";
