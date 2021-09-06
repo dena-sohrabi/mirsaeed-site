@@ -16,6 +16,7 @@ export default function Footer(props) {
               <Logo source="/instagram.png" />
             </View>
             <View style={styles.wrapper2}>
+              {" "}
               <Logo source="/youtube.png" />
               <Logo source="/clubhouse.png" />
             </View>
