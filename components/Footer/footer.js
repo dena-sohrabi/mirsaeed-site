@@ -12,12 +12,12 @@ export default function Footer(props) {
           <Bg />
           <View style={styles.box2}>
             <View style={styles.wrapper2}>
-              <Logo source="/Frame 33.png" />
-              <Logo source="/Group 65.png" />
+              <Logo source="/telegram.png" />
+              <Logo source="/instagram.png" />
             </View>
             <View style={styles.wrapper2}>
-              <Logo source="/Group 64.png" />
-              <Logo source="/Group 63.png" />
+              <Logo source="/youtube.png" />
+              <Logo source="/clubhouse.png" />
             </View>
           </View>
           <Texts />
@@ -28,10 +28,10 @@ export default function Footer(props) {
           <Bg />
 
           <View style={styles.wrapper}>
-            <Logo source="/Frame 33.png" />
-            <Logo source="/Group 65.png" />
-            <Logo source="/Group 64.png" />
-            <Logo source="/Group 63.png" />
+            <Logo source="/telegram.png" />
+            <Logo source="/instagram.png" />
+            <Logo source="/youtube.png" />
+            <Logo source="/clubhouse.png" />
           </View>
           <Texts />
         </View>

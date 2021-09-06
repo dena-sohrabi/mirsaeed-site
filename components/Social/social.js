@@ -54,22 +54,22 @@ export function Social(props) {
             <Box
               title1="کتاب های آموزشی رایگان!"
               title2="برای دریافت کتاب های آموزشی رایگان از کانال تلگرام دیدن کنید"
-              source="/Group 66.png"
+              source="/telegram.png"
             />
             <Box
               title1="ویدیو های آموزشی!"
               title2="برای مشاهده ی تدریس های رایگان و کاربردی به یتویوب مراجعه کنید"
-              source="/Group 65.png"
+              source="/youtube.png"
             />
             <Box
               title1="تدریس های کوتاه!"
               title2="  تدریس های کوتاه مفید را از پیج اینستاگرام مشاهده کنید"
-              source="/Group 64.png"
+              source="/instagram.png"
             />
             <Box
               title1="کلاس های آموزشی رایگان!"
               title2=" برای شرکت در دوره های آموزش رایگان در کلاب هوس عضو شوید"
-              source="/Group 63.png"
+              source="/clubhouse.png"
             />
           </View>
         </View>
