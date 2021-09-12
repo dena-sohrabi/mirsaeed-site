@@ -23,7 +23,7 @@ export function Social(props) {
               title1="کتاب های آموزشی رایگان!"
               title2="برای دریافت کتاب های آموزشی رایگان از کانال تلگرام دیدن کنید"
               marginLeft={0}
-              href="https://t.me/mirsaeedenglish"
+              // href="https://t.me/mirsaeedenglish"
             />
             <Box
               title1="ویدیو های آموزشی!"
@@ -38,7 +38,7 @@ export function Social(props) {
               title2="  تدریس های کوتاه مفید را از پیج اینستاگرام مشاهده کنید"
               source="/Group 64.png"
               marginLeft={0}
-              href="https://www.instagram.com/mirsaeed.english/"
+              // href="https://www.instagram.com/mirsaeed.english/"
             />
             <Box
               source="/Group 63.png"
@@ -59,7 +59,7 @@ export function Social(props) {
               title1="کتاب های آموزشی رایگان!"
               title2="برای دریافت کتاب های آموزشی رایگان از کانال تلگرام دیدن کنید"
               source="/telegram.png"
-              href="https://t.me/mirsaeedenglish"
+              // href="https://t.me/mirsaeedenglish"
             />
             <Box
               title1="ویدیو های آموزشی!"
@@ -72,13 +72,12 @@ export function Social(props) {
               title1="تدریس های کوتاه!"
               title2="  تدریس های کوتاه مفید را از پیج اینستاگرام مشاهده کنید"
               source="/instagram.png"
-              href="https://www.instagram.com/mirsaeed.english/"
+              // href="https://www.instagram.com/mirsaeed.english/"
             />
             <Box
               title1="کلاس های آموزشی رایگان!"
               title2=" برای شرکت در دوره های آموزش رایگان در کلاب هوس عضو شوید"
               source="/clubhouse.png"
-              href="https://www.linkedin.com/in/mirsaeedmina/"
             />
           </View>
         </View>

@@ -35,7 +35,7 @@ export function Box({ source, title1, title2, marginLeft = 20, href }) {
       <Media greaterThan="sm">
         <View style={styles.container}>
           <Image
-            source={{ uri: source, width: 100, height: 100 }}
+            source={{ uri: source, width: 130, height: 130 }}
             style={styles.img}
           />
           <Text style={styles.h1}>{title1}</Text>
