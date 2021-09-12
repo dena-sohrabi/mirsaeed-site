@@ -1,7 +1,7 @@
 import { StyleSheet, Image, View, Text, Pressable } from "react-native";
 import { Media } from "../media";
 import { Button } from "../docme";
-export function Box({ source, title1, title2, marginLeft = 20 }) {
+export function Box({ source, title1, title2, marginLeft = 20, href }) {
   return (
     <>
       <Media at="sm">
@@ -29,7 +29,7 @@ export function Box({ source, title1, title2, marginLeft = 20 }) {
           >
             {title2}
           </Text>
-          <Button title="مشاهده" />
+          <Button title="مشاهده" href={href} />
         </View>
       </Media>
       <Media greaterThan="sm">
@@ -42,7 +42,7 @@ export function Box({ source, title1, title2, marginLeft = 20 }) {
           <Text style={styles.p} numberOfLines={3}>
             {title2}
           </Text>
-          <Button title="مشاهده" />
+          <Button title="مشاهده" href={href} />
         </View>
       </Media>
     </>
