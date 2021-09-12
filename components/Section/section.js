@@ -47,7 +47,7 @@ export default function Section(props) {
               </View>
             </View>
           </View>
-          <Button title="رزرو کلاس" />
+          <Button title="رزرو کلاس" href="tel:0938 8015238" />
         </View>
       </Media>
     </View>
