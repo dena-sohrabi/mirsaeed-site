@@ -7,7 +7,7 @@ export default function Logo({ source }) {
         <Image
           accessibilityRole="link"
           herf="#"
-          source={{ uri: source, width: 35, height: 30 }}
+          source={{ uri: source, width: 50, height: 50 }}
           style={styles.logo}
         />
       </Media>
@@ -15,7 +15,7 @@ export default function Logo({ source }) {
         <Image
           accessibilityRole="link"
           herf="#"
-          source={{ uri: source, width: 45, height: 40 }}
+          source={{ uri: source, width: 70, height: 70 }}
           style={styles.logo}
         />
       </Media>
