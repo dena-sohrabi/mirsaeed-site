@@ -1,13 +1,13 @@
 import { StyleSheet, View, Pressable } from "react-native";
 import { Media } from "./media";
 import { useHover } from "./useHover";
-export const Button = ({ title, largeMobile }) => {
+export const Button = ({ title, largeMobile, href }) => {
   let [hovered, hoverListeners] = useHover();
   return (
     <>
       <Media at="sm">
         <Pressable
-          herf="#"
+          href={href}
           accessibilityRole="link"
           style={[
             styles.docme,
@@ -28,7 +28,7 @@ export const Button = ({ title, largeMobile }) => {
       </Media>
       <Media greaterThan="sm">
         <Pressable
-          herf="#"
+          href={href}
           accessibilityRole="link"
           style={[
             styles.docme,
