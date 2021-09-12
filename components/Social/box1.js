@@ -17,7 +17,7 @@ export function Box({ source, title1, title2, marginLeft = 20, href }) {
           ]}
         >
           <Image
-            source={{ uri: source, width: 60, height: 52 }}
+            source={{ uri: source, width: 80, height: 72 }}
             style={styles.img}
           />
           <Text style={[styles.h1, { fontSize: 16, paddingTop: 15 }]}>
