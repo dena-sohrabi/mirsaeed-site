@@ -19,16 +19,16 @@ export function Social(props) {
           </View>
           <View style={styles.wrapper2}>
             <Box
-              source="/Group 66.png"
+              source="/telegram.png"
               title1="کتاب های آموزشی رایگان!"
               title2="برای دریافت کتاب های آموزشی رایگان از کانال تلگرام دیدن کنید"
               marginLeft={0}
-              // href="https://t.me/mirsaeedenglish"
+              href="https://t.me/mirsaeedenglish"
             />
             <Box
               title1="ویدیو های آموزشی!"
               title2="برای مشاهده ی تدریس های رایگان و کاربردی به یتویوب مراجعه کنید"
-              source="/Group 65.png"
+              source="/youtube.png"
               href="#"
             />
           </View>
@@ -36,12 +36,12 @@ export function Social(props) {
             <Box
               title1="تدریس های کوتاه!"
               title2="  تدریس های کوتاه مفید را از پیج اینستاگرام مشاهده کنید"
-              source="/Group 64.png"
+              source="/instagram.png"
               marginLeft={0}
-              // href="https://www.instagram.com/mirsaeed.english/"
+              href="https://www.instagram.com/mirsaeed.english/"
             />
             <Box
-              source="/Group 63.png"
+              source="/clubhouse.png"
               title1="کتاب های آموزشی رایگان!"
               title2="برای دریافت کتاب های آموزشی رایگان از کانال تلگرام دیدن کنید"
               href="#"
@@ -59,7 +59,7 @@ export function Social(props) {
               title1="کتاب های آموزشی رایگان!"
               title2="برای دریافت کتاب های آموزشی رایگان از کانال تلگرام دیدن کنید"
               source="/telegram.png"
-              // href="https://t.me/mirsaeedenglish"
+              href="https://t.me/mirsaeedenglish"
             />
             <Box
               title1="ویدیو های آموزشی!"
@@ -72,7 +72,7 @@ export function Social(props) {
               title1="تدریس های کوتاه!"
               title2="  تدریس های کوتاه مفید را از پیج اینستاگرام مشاهده کنید"
               source="/instagram.png"
-              // href="https://www.instagram.com/mirsaeed.english/"
+              href="https://www.instagram.com/mirsaeed.english/"
             />
             <Box
               title1="کلاس های آموزشی رایگان!"
