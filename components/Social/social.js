@@ -77,7 +77,7 @@ export function Social(props) {
               title1="کلاس های آموزشی رایگان!"
               title2=" برای شرکت در دوره های آموزش رایگان در کلاب هوس عضو شوید"
               source="/clubhouse.png"
-              href=""
+              href="https://www.linkedin.com/in/mirsaeedmina/"
             />
           </View>
         </View>
