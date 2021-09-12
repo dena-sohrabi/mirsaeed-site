@@ -12,13 +12,22 @@ export default function Footer(props) {
           <Bg />
           <View style={styles.box2}>
             <View style={styles.wrapper2}>
-              <Logo source="/telegram.png" />
-              <Logo source="/instagram.png" />
+              <Logo
+                source="/telegram.png"
+                href="https://t.me/mirsaeedenglish"
+              />
+              <Logo
+                source="/instagram.png"
+                href="https://www.instagram.com/mirsaeed.english/"
+              />
             </View>
             <View style={styles.wrapper2}>
               {" "}
-              <Logo source="/youtube.png" />
-              <Logo source="/clubhouse.png" />
+              <Logo source="/youtube.png" href="" />
+              <Logo
+                source="/clubhouse.png"
+                href="https://www.linkedin.com/in/mirsaeedmina/"
+              />
             </View>
           </View>
           <Texts />
@@ -29,10 +38,16 @@ export default function Footer(props) {
           <Bg />
 
           <View style={styles.wrapper}>
-            <Logo source="/telegram.png" />
-            <Logo source="/instagram.png" />
-            <Logo source="/youtube.png" />
-            <Logo source="/clubhouse.png" />
+            <Logo source="/telegram.png" href="https://t.me/mirsaeedenglish" />
+            <Logo
+              source="/instagram.png"
+              href="https://www.instagram.com/mirsaeed.english/"
+            />
+            <Logo source="/youtube.png" href="" />
+            <Logo
+              source="/clubhouse.png"
+              href="https://www.linkedin.com/in/mirsaeedmina/"
+            />
           </View>
           <Texts />
         </View>
