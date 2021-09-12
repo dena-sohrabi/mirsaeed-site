@@ -22,7 +22,6 @@ export default function Footer(props) {
               />
             </View>
             <View style={styles.wrapper2}>
-              {" "}
               <Logo source="/youtube.png" href="" />
               <Logo
                 source="/clubhouse.png"
