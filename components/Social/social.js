@@ -67,6 +67,7 @@ export function Social(props) {
               source="/youtube.png"
               href="#"
             />
+
             <Box
               title1="تدریس های کوتاه!"
               title2="  تدریس های کوتاه مفید را از پیج اینستاگرام مشاهده کنید"
