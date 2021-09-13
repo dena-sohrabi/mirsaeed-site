@@ -1,4 +1,4 @@
-import { StyleSheet, View, Text } from "react-native";
+import { StyleSheet, View, Text, Pressable } from "react-native";
 import { Media } from "../media";
 import Bg from "./bg,";
 import Logo from "./logo";
@@ -12,32 +12,32 @@ export default function Footer(props) {
           <Bg />
           <View style={styles.box2}>
             <View style={styles.wrapper2}>
-              <Text
+              <Pressable
                 accessibilityRole="link"
                 href="https://t.me/mirsaeedenglish"
               >
                 <Logo source="/telegram.png" />
-              </Text>
-              <Text
+              </Pressable>
+              <Pressable
                 accessibilityRole="link"
                 href="https://www.instagram.com/mirsaeed.english/"
               >
                 <Logo source="/instagram.png" />
-              </Text>
+              </Pressable>
             </View>
             <View style={styles.wrapper2}>
-              <Text
+              <Pressable
                 accessibilityRole="link"
                 href="https://www.linkedin.com/in/mirsaeedmina/"
               >
                 <Logo source="/youtube.png" href="" />
-              </Text>
-              <Text
+              </Pressable>
+              <Pressable
                 accessibilityRole="link"
                 href="https://www.linkedin.com/in/mirsaeedmina/"
               >
                 <Logo source="/clubhouse.png" />
-              </Text>
+              </Pressable>
             </View>
           </View>
           <Texts />
@@ -48,24 +48,27 @@ export default function Footer(props) {
           <Bg />
 
           <View style={styles.wrapper}>
-            <Text accessibilityRole="link" href="https://t.me/mirsaeedenglish">
+            <Pressable
+              accessibilityRole="link"
+              href="https://t.me/mirsaeedenglish"
+            >
               <Logo source="/telegram.png" />
-            </Text>
-            <Text
+            </Pressable>
+            <Pressable
               accessibilityRole="link"
               href="https://www.instagram.com/mirsaeed.english/"
             >
               <Logo source="/instagram.png" />
-            </Text>
-            <Text accessibilityRole="link" href="">
+            </Pressable>
+            <Pressable accessibilityRole="link" href="">
               <Logo source="/youtube.png" />
-            </Text>
-            <Text
+            </Pressable>
+            <Pressable
               accessibilityRole="link"
               href="https://www.linkedin.com/in/mirsaeedmina/"
             >
               <Logo source="/clubhouse.png" />
-            </Text>
+            </Pressable>
           </View>
           <Texts />
         </View>
