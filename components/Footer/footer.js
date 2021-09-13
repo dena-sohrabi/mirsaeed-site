@@ -12,21 +12,32 @@ export default function Footer(props) {
           <Bg />
           <View style={styles.box2}>
             <View style={styles.wrapper2}>
-              <Logo
-                source="/telegram.png"
+              <Text
+                accessibilityRole="link"
                 href="https://t.me/mirsaeedenglish"
-              />
-              <Logo
-                source="/instagram.png"
+              >
+                <Logo source="/telegram.png" />
+              </Text>
+              <Text
+                accessibilityRole="link"
                 href="https://www.instagram.com/mirsaeed.english/"
-              />
+              >
+                <Logo source="/instagram.png" />
+              </Text>
             </View>
             <View style={styles.wrapper2}>
-              <Logo source="/youtube.png" href="" />
-              <Logo
-                source="/clubhouse.png"
+              <Text
+                accessibilityRole="link"
                 href="https://www.linkedin.com/in/mirsaeedmina/"
-              />
+              >
+                <Logo source="/youtube.png" href="" />
+              </Text>
+              <Text
+                accessibilityRole="link"
+                href="https://www.linkedin.com/in/mirsaeedmina/"
+              >
+                <Logo source="/clubhouse.png" />
+              </Text>
             </View>
           </View>
           <Texts />
@@ -37,16 +48,24 @@ export default function Footer(props) {
           <Bg />
 
           <View style={styles.wrapper}>
-            <Logo source="/telegram.png" href="https://t.me/mirsaeedenglish" />
-            <Logo
-              source="/instagram.png"
+            <Text accessibilityRole="link" href="https://t.me/mirsaeedenglish">
+              <Logo source="/telegram.png" />
+            </Text>
+            <Text
+              accessibilityRole="link"
               href="https://www.instagram.com/mirsaeed.english/"
-            />
-            <Logo source="/youtube.png" href="" />
-            <Logo
-              source="/clubhouse.png"
+            >
+              <Logo source="/instagram.png" />
+            </Text>
+            <Text accessibilityRole="link" href="">
+              <Logo source="/youtube.png" />
+            </Text>
+            <Text
+              accessibilityRole="link"
               href="https://www.linkedin.com/in/mirsaeedmina/"
-            />
+            >
+              <Logo source="/clubhouse.png" />
+            </Text>
           </View>
           <Texts />
         </View>
