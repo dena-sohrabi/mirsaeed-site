@@ -57,14 +57,15 @@ export default function Footer(props) {
           <View style={styles.wrapper}>
             <Pressable
               onPress={() => {
-                Linking.openURL("https://t.me/mirsaeedenglish");
+                // Linking.openURL("https://t.me/mirsaeedenglish");
+                alert("denaa");
               }}
             >
               <Logo source="/telegram.png" />
             </Pressable>
             <Pressable
               onPress={() => {
-                Linking.openURL("https://www.instagram.com/mirsaeed.english/");
+                // Linking.openURL("https://www.instagram.com/mirsaeed.english/");
               }}
             >
               <Logo source="/instagram.png" />
@@ -74,7 +75,7 @@ export default function Footer(props) {
             </Pressable>
             <Pressable
               onPress={() => {
-                Linking.openURL("https://www.linkedin.com/in/mirsaeedmina/");
+                // Linking.openURL("https://www.linkedin.com/in/mirsaeedmina/");
               }}
             >
               <Logo source="/clubhouse.png" />
