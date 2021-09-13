@@ -1,4 +1,4 @@
-import { StyleSheet, View, Text, Pressable } from "react-native";
+import { StyleSheet, View, Text, Pressable, Linking } from "react-native";
 import { Media } from "../media";
 import Bg from "./bg,";
 import Logo from "./logo";
@@ -13,28 +13,35 @@ export default function Footer(props) {
           <View style={styles.box2}>
             <View style={styles.wrapper2}>
               <Pressable
-                accessibilityRole="link"
-                href="https://t.me/mirsaeedenglish"
+                // accessibilityRole="link"
+                onPress={() => {
+                  Linking.openURL("https://t.me/mirsaeedenglish");
+                }}
               >
                 <Logo source="/telegram.png" />
               </Pressable>
               <Pressable
-                accessibilityRole="link"
-                href="https://www.instagram.com/mirsaeed.english/"
+                onPress={() => {
+                  Linking.openURL(
+                    "    https://www.instagram.com/mirsaeed.english/"
+                  );
+                }}
               >
                 <Logo source="/instagram.png" />
               </Pressable>
             </View>
             <View style={styles.wrapper2}>
               <Pressable
-                accessibilityRole="link"
-                href="https://www.linkedin.com/in/mirsaeedmina/"
+                onPress={() => {
+                  Linking.openURL(" https://www.linkedin.com/in/mirsaeedmina/");
+                }}
               >
                 <Logo source="/youtube.png" href="" />
               </Pressable>
               <Pressable
-                accessibilityRole="link"
-                href="https://www.linkedin.com/in/mirsaeedmina/"
+                onPress={() => {
+                  Linking.openURL(" https://www.linkedin.com/in/mirsaeedmina/");
+                }}
               >
                 <Logo source="/clubhouse.png" />
               </Pressable>
@@ -49,14 +56,16 @@ export default function Footer(props) {
 
           <View style={styles.wrapper}>
             <Pressable
-              accessibilityRole="link"
-              href="https://t.me/mirsaeedenglish"
+              onPress={() => {
+                Linking.openURL("https://t.me/mirsaeedenglish");
+              }}
             >
               <Logo source="/telegram.png" />
             </Pressable>
             <Pressable
-              accessibilityRole="link"
-              href="https://www.instagram.com/mirsaeed.english/"
+              onPress={() => {
+                Linking.openURL("https://www.instagram.com/mirsaeed.english/");
+              }}
             >
               <Logo source="/instagram.png" />
             </Pressable>
@@ -64,8 +73,9 @@ export default function Footer(props) {
               <Logo source="/youtube.png" />
             </Pressable>
             <Pressable
-              accessibilityRole="link"
-              href="https://www.linkedin.com/in/mirsaeedmina/"
+              onPress={() => {
+                Linking.openURL("https://www.linkedin.com/in/mirsaeedmina/");
+              }}
             >
               <Logo source="/clubhouse.png" />
             </Pressable>
