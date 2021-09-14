@@ -14,7 +14,7 @@ export default function Footer(props) {
             style={{
               flexDirection: "row",
               justifyContent: "space-between",
-              paddingHorizontal: 120,
+              paddingHorizontal: 100,
             }}
           >
             <View style={styles.box2}>
