@@ -11,7 +11,7 @@ export default function Texts(props) {
           </Text>
           <Text
             accessibilityRole="link"
-            herf="tel:+98 938 801 5238"
+            href="tel:+98 938 801 5238"
             style={[styles.p, { fontSize: 12, paddingTop: 10 }]}
           >
             شماره تماس:09388015238
