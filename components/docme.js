@@ -9,6 +9,9 @@ export const Button = ({ title, largeMobile, href }) => {
         <Pressable
           href={href}
           accessibilityRole="link"
+          hrefAttrs={{
+            target: "_blank",
+          }}
           style={[
             styles.docme,
             {
@@ -30,6 +33,9 @@ export const Button = ({ title, largeMobile, href }) => {
         <Pressable
           href={href}
           accessibilityRole="link"
+          hrefAttrs={{
+            target: "_blank",
+          }}
           style={[
             styles.docme,
             hovered && { backgroundColor: "#b91372", color: "#fff" },

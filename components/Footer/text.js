@@ -24,8 +24,12 @@ export default function Texts(props) {
             جهت رزرو و کسب اطلاعات درباره ی<br /> کلاس ها با شماره ی زیر تماس
             بگیرید
           </Text>
-          <Text style={styles.p} accessibilityRole="link" href="tel:۰۹۱۲۴۵۶۷۸۹">
-            شماره تماس: ۰۹۱۲۴۵۶۷۸۹
+          <Text
+            style={styles.p}
+            accessibilityRole="link"
+            href="tel:09388015238"
+          >
+            شماره تماس: 09388015238
           </Text>
         </View>
       </Media>

@@ -22,23 +22,38 @@ export default function Footer(props) {
                 <Pressable
                   accessibilityRole="link"
                   href="https://t.me/mirsaeedenglish"
+                  hrefAttrs={{
+                    target: "_blank",
+                  }}
                 >
                   <Logo source="/telegram.png" />
                 </Pressable>
                 <Pressable
                   accessibilityRole="link"
                   href="https://www.instagram.com/mirsaeed.english/"
+                  hrefAttrs={{
+                    target: "_blank",
+                  }}
                 >
                   <Logo source="/instagram.png" />
                 </Pressable>
               </View>
               <View style={styles.wrapper2}>
-                <Pressable accessibilityRole="link" href="">
+                <Pressable
+                  accessibilityRole="link"
+                  href=""
+                  hrefAttrs={{
+                    target: "_blank",
+                  }}
+                >
                   <Logo source="/youtube.png" />
                 </Pressable>
                 <Pressable
                   accessibilityRole="link"
                   href="https://www.clubhouse.com/@mirsaeed.eng"
+                  hrefAttrs={{
+                    target: "_blank",
+                  }}
                 >
                   <Logo source="/clubhouse.png" />
                 </Pressable>
@@ -62,21 +77,36 @@ export default function Footer(props) {
               <Pressable
                 accessibilityRole="link"
                 href="https://t.me/mirsaeedenglish"
+                hrefAttrs={{
+                  target: "_blank",
+                }}
               >
                 <Logo source="/telegram.png" />
               </Pressable>
               <Pressable
                 accessibilityRole="link"
                 href="https://www.instagram.com/mirsaeed.english/"
+                hrefAttrs={{
+                  target: "_blank",
+                }}
               >
                 <Logo source="/instagram.png" />
               </Pressable>
-              <Pressable accessibilityRole="link" href="">
+              <Pressable
+                accessibilityRole="link"
+                href=""
+                hrefAttrs={{
+                  target: "_blank",
+                }}
+              >
                 <Logo source="/youtube.png" />
               </Pressable>
               <Pressable
                 accessibilityRole="link"
-                href="https://www.clubhouse.com/@mirsaeed.eng"
+                href="https://google.com"
+                hrefAttrs={{
+                  target: "__blank",
+                }}
               >
                 <Logo source="/clubhouse.png" />
               </Pressable>

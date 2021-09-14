@@ -29,7 +29,13 @@ export function Box({ source, title1, title2, marginLeft = 20, href }) {
           >
             {title2}
           </Text>
-          <Button title="مشاهده" href={href} />
+          <Button
+            title="مشاهده"
+            href={href}
+            hrefAttrs={{
+              target: "_blank",
+            }}
+          />
         </View>
       </Media>
       <Media greaterThan="sm">
@@ -42,7 +48,13 @@ export function Box({ source, title1, title2, marginLeft = 20, href }) {
           <Text style={styles.p} numberOfLines={3}>
             {title2}
           </Text>
-          <Button title="مشاهده" href={href} />
+          <Button
+            title="مشاهده"
+            href={href}
+            hrefAttrs={{
+              target: "_blank",
+            }}
+          />
         </View>
       </Media>
     </>
