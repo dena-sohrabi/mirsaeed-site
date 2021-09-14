@@ -20,5 +20,6 @@ const styles = StyleSheet.create({
   logo: {
     position: "absolute",
     top: -200,
+    right: -80,
   },
 });

@@ -35,7 +35,9 @@ const styles = StyleSheet.create({
     display: "flex",
     alignItems: "flex-end",
     justifyContent: "flex-end",
-    marginRight: 50,
+    // marginRight: 50,
+    width: 500,
+    // marginLeft: "60%",
   },
   h1: {
     fontStyle: "normal",
@@ -60,5 +62,9 @@ const styles = StyleSheet.create({
     alignItems: "flex-end",
     justifyContent: "flex-end",
     marginRight: 10,
+    width: 300,
+    // borderWidth: 5,
+    // borderColor: "red",
+    // marginLeft: "40%",
   },
 });

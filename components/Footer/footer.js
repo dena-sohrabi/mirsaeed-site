@@ -10,78 +10,79 @@ export default function Footer(props) {
       <Media at="sm">
         <View style={styles.container}>
           <Bg />
-          <View style={styles.box2}>
-            <View style={styles.wrapper2}>
-              <Pressable
-                // accessibilityRole="link"
-                onPress={() => {
-                  Linking.openURL("https://t.me/mirsaeedenglish");
-                }}
-              >
-                <Logo source="/telegram.png" />
-              </Pressable>
-              <Pressable
-                onPress={() => {
-                  Linking.openURL(
-                    "    https://www.instagram.com/mirsaeed.english/"
-                  );
-                }}
-              >
-                <Logo source="/instagram.png" />
-              </Pressable>
+          <View
+            style={{
+              flexDirection: "row",
+              justifyContent: "space-between",
+              paddingHorizontal: 120,
+            }}
+          >
+            <View style={styles.box2}>
+              <View style={styles.wrapper2}>
+                <Pressable
+                  accessibilityRole="link"
+                  href="https://t.me/mirsaeedenglish"
+                >
+                  <Logo source="/telegram.png" />
+                </Pressable>
+                <Pressable
+                  accessibilityRole="link"
+                  href="https://www.instagram.com/mirsaeed.english/"
+                >
+                  <Logo source="/instagram.png" />
+                </Pressable>
+              </View>
+              <View style={styles.wrapper2}>
+                <Pressable accessibilityRole="link" href="">
+                  <Logo source="/youtube.png" />
+                </Pressable>
+                <Pressable
+                  accessibilityRole="link"
+                  href="https://www.clubhouse.com/@mirsaeed.eng"
+                >
+                  <Logo source="/clubhouse.png" />
+                </Pressable>
+              </View>
             </View>
-            <View style={styles.wrapper2}>
-              <Pressable
-                onPress={() => {
-                  Linking.openURL(" https://www.linkedin.com/in/mirsaeedmina/");
-                }}
-              >
-                <Logo source="/youtube.png" href="" />
-              </Pressable>
-              <Pressable
-                onPress={() => {
-                  Linking.openURL(" https://www.linkedin.com/in/mirsaeedmina/");
-                }}
-              >
-                <Logo source="/clubhouse.png" />
-              </Pressable>
-            </View>
+            <Texts />
           </View>
-          <Texts />
         </View>
       </Media>
       <Media greaterThan="sm">
         <View style={styles.container}>
           <Bg />
-
-          <View style={styles.wrapper}>
-            <Pressable
-              onPress={() => {
-                // Linking.openURL("https://t.me/mirsaeedenglish");
-                alert("denaa");
-              }}
-            >
-              <Logo source="/telegram.png" />
-            </Pressable>
-            <Pressable
-              onPress={() => {
-                // Linking.openURL("https://www.instagram.com/mirsaeed.english/");
-              }}
-            >
-              <Logo source="/instagram.png" />
-            </Pressable>
-            <Pressable accessibilityRole="link" href="">
-              <Logo source="/youtube.png" />
-            </Pressable>
-            <Pressable
-              onPress={() => {
-                // Linking.openURL("https://www.linkedin.com/in/mirsaeedmina/");
-              }}
-            >
-              <Logo source="/clubhouse.png" />
-            </Pressable>
+          <View
+            style={{
+              flexDirection: "row",
+              justifyContent: "space-between",
+              paddingHorizontal: 40,
+            }}
+          >
+            <View style={styles.wrapper}>
+              <Pressable
+                accessibilityRole="link"
+                href="https://t.me/mirsaeedenglish"
+              >
+                <Logo source="/telegram.png" />
+              </Pressable>
+              <Pressable
+                accessibilityRole="link"
+                href="https://www.instagram.com/mirsaeed.english/"
+              >
+                <Logo source="/instagram.png" />
+              </Pressable>
+              <Pressable accessibilityRole="link" href="">
+                <Logo source="/youtube.png" />
+              </Pressable>
+              <Pressable
+                accessibilityRole="link"
+                href="https://www.clubhouse.com/@mirsaeed.eng"
+              >
+                <Logo source="/clubhouse.png" />
+              </Pressable>
+            </View>
+            <Texts />
           </View>
-          <Texts />
         </View>
       </Media>
     </View>
@@ -99,8 +100,8 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
     flexDirection: "row",
     width: 300,
-    marginBottom: -80,
-    marginLeft: 60,
+    // marginBottom: -80,
+    // marginLeft: 60,
   },
   wrapper2: {
     display: "flex",
@@ -109,7 +110,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     width: 90,
     height: 50,
-    // marginBottom: -100,
+    //marginBottom: -100,
     // marginLeft: 0,
   },
   box2: {

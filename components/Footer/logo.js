@@ -5,13 +5,13 @@ export default function Logo({ source, href }) {
     <>
       <Media at="sm">
         <Image
-          source={{ uri: source, width: 50, height: 50 }}
+          source={{ uri: source, width: 30, height: 30 }}
           style={styles.logo}
         />
       </Media>
       <Media greaterThan="sm">
         <Image
-          source={{ uri: source, width: 70, height: 70 }}
+          source={{ uri: source, width: 50, height: 50 }}
           style={styles.logo}
         />
       </Media>

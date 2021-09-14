@@ -17,7 +17,7 @@ export function Box({ source, title1, title2, marginLeft = 20, href }) {
           ]}
         >
           <Image
-            source={{ uri: source, width: 100, height: 100 }}
+            source={{ uri: source, width: 80, height: 80 }}
             style={styles.img}
           />
           <Text style={[styles.h1, { fontSize: 16, paddingTop: 15 }]}>
@@ -35,7 +35,7 @@ export function Box({ source, title1, title2, marginLeft = 20, href }) {
       <Media greaterThan="sm">
         <View style={styles.container}>
           <Image
-            source={{ uri: source, width: 130, height: 130 }}
+            source={{ uri: source, width: 100, height: 100 }}
             style={styles.img}
           />
           <Text style={styles.h1}>{title1}</Text>
