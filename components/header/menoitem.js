@@ -32,5 +32,6 @@ const styles = StyleSheet.create({
     lineHeight: 31,
     textAlign: "right",
     color: "#555555",
+    cursor: "pointer",
   },
 });

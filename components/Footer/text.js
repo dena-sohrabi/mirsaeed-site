@@ -6,7 +6,7 @@ export default function Texts(props) {
       <Media at="sm">
         <View style={styles.textbox2}>
           <Text style={[styles.h1, { fontSize: 15 }]}>
-            جهت رزرو و کسب اظلاعات در باره ی<br /> کلاس ها با شماره ی زیر تماس
+            جهت رزرو و کسب اطلاعات درباره ی<br /> کلاس ها با شماره ی زیر تماس
             بگیرید
           </Text>
           <Text
@@ -21,10 +21,12 @@ export default function Texts(props) {
       <Media greaterThan="sm">
         <View style={styles.textbox}>
           <Text style={styles.h1}>
-            جهت رزرو و کسب اظلاعات در باره ی<br /> کلاس ها با شماره ی زیر تماس
+            جهت رزرو و کسب اطلاعات درباره ی<br /> کلاس ها با شماره ی زیر تماس
             بگیرید
           </Text>
-          <Text style={styles.p}>شماره تماس: ۰۹۱۲۴۵۶۷۸۹</Text>
+          <Text style={styles.p} accessibilityRole="link" href="tel:۰۹۱۲۴۵۶۷۸۹">
+            شماره تماس: ۰۹۱۲۴۵۶۷۸۹
+          </Text>
         </View>
       </Media>
     </>

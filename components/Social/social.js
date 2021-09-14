@@ -26,15 +26,15 @@ export function Social(props) {
               href="https://t.me/mirsaeedenglish"
             />
             <Box
-              title1="ویدیو های آموزشی!"
-              title2="برای مشاهده ی تدریس های رایگان و کاربردی به یتویوب مراجعه کنید"
+              title1="ویدیو های آموزشی"
+              title2="برای مشاهده ی تدریس های رایگان و کاربردی به یوتوب مراجعه کنید"
               source="/youtube.png"
               href="#"
             />
           </View>
           <View style={styles.wrapper2}>
             <Box
-              title1="تدریس های کوتاه!"
+              title1="تدریس های کوتاه"
               title2="  تدریس های کوتاه مفید را از پیج اینستاگرام مشاهده کنید"
               source="/instagram.png"
               marginLeft={0}
@@ -42,8 +42,8 @@ export function Social(props) {
             />
             <Box
               source="/clubhouse.png"
-              title1="کتاب های آموزشی رایگان!"
-              title2="برای دریافت کتاب های آموزشی رایگان از کانال تلگرام دیدن کنید"
+              title1="کتاب های آموزشی رایگان"
+              title2=" برای شرکت در تدریس رایگان کتاب های آموزشی در کلاب هاوس عضو شوید"
               href="https://www.clubhouse.com/@mirsaeed.eng"
             />
           </View>
@@ -62,21 +62,21 @@ export function Social(props) {
               href="https://t.me/mirsaeedenglish"
             />
             <Box
-              title1="ویدیو های آموزشی!"
-              title2="برای مشاهده ی تدریس های رایگان و کاربردی به یتویوب مراجعه کنید"
+              title1="ویدیو های آموزشی"
+              title2="برای مشاهده ی تدریس های رایگان و کاربردی به یوتوب مراجعه کنید"
               source="/youtube.png"
               href="#"
             />
 
             <Box
-              title1="تدریس های کوتاه!"
+              title1="تدریس های کوتاه"
               title2="  تدریس های کوتاه مفید را از پیج اینستاگرام مشاهده کنید"
               source="/instagram.png"
               href="https://www.instagram.com/mirsaeed.english/"
             />
             <Box
-              title1="کلاس های آموزشی رایگان!"
-              title2=" برای شرکت در دوره های آموزش رایگان در کلاب هوس عضو شوید"
+              title1="کلاس های آموزشی رایگان"
+              title2=" برای شرکت در تدریس رایگان کتاب های آموزشی در کلاب هاوس عضو شوید"
               source="/clubhouse.png"
               href="https://www.clubhouse.com/@mirsaeed.eng"
             />

@@ -11,8 +11,7 @@ export default function Matn(props) {
             <br /> به راحتی خانه خودتان
           </Text>
           <Text style={[styles.p, { fontSize: 15, width: 300 }]}>
-            از ساعت ۹ تا ۱۴ برای رزرو با ۰۹۱۲۴۵۶۷۸۹ <br />
-            تماس بگیرید.
+            برای رزرو به پیج اینستاگرام یا به شماره ی<br /> واتساپ پیام دهید
           </Text>
         </View>
       </Media>
@@ -23,8 +22,7 @@ export default function Matn(props) {
             <br /> به راحتی خانه خودتان
           </Text>
           <Text style={styles.p}>
-            از ساعت ۹ تا ۱۴ برای رزرو با ۰۹۱۲۴۵۶۷۸۹ <br />
-            تماس بگیرید.
+            برای رزرو به پیج اینستاگرام یا به شماره ی<br /> واتساپ پیام دهید
           </Text>
         </View>
       </Media>
